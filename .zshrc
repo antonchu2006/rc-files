@@ -6,7 +6,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
-alias ll='ls -la'
+alias ll='ls -ll'
+alias la='ls -la'
 alias ls='lsd'
 alias cls='clear'
 alias cat='bat'
